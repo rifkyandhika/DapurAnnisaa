@@ -1,0 +1,385 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    color: #071c4d;
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: #071c4d;
+        }
+    } 
+}
+
+.active{
+    font-weight: bold;
+    color: #071c4d !important;
+}
+
+header{
+    padding: 180px 0px 165px;
+    margin-top: -70px;
+    background-image: url('../images/Spice2.jpg');
+    background-size: cover;
+
+    h1, p {
+        color: #ffffff;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #071c4d;
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 10px 50px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        margin-top: 30px;
+        
+        &:hover{
+            background-color: #ffffff;
+            color: #071c4d;
+        }
+    }
+}
+
+//statistics
+.section-stats{
+    margin-top: -60px;
+
+    .stats-detail{
+        padding-top : 10px;
+        background-color: #ffffff;
+        padding-left: 10px;
+    }
+
+    h2{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+//popular
+.section-popular{
+    min-height: 540px;
+    background-color: #72502c;
+    margin-top: -60px;
+    margin-bottom: -230px;
+
+    .section-popular-heading{
+        margin-top: 150px;
+
+        h2,p{
+            color: #ffff;
+        }
+
+        h2{
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+.section-popular-content{
+    .section-popular-food{
+        .card-food{
+            min-height: 380px;
+            background-color: rgb(189, 148, 148);
+            color: #ffffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+    }
+
+    .food-name{
+        font-size: 26px;
+        color: #ffffff;
+    }
+
+    .food-country{
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .food-button{
+        .btn-food-details{
+            background-color: #FFAE6F;
+            color: #ffffff;
+        }
+    }
+}
+
+.section-networks{
+    background-color: #ffffff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+.section-testimonial-heading{
+    background-image: linear-gradient(to bottom, #764108, #926438, #ac8967, #c6af99, #ded6ce);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial{
+        padding: 40px 20px 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+        .testimonial-content{
+            min-height: 30px;
+        }
+
+        h3{
+            font-size: 22px;
+        }
+
+        .testimonial{
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 270px;
+        }
+
+        .food-love{
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started{
+        background-color: #071c4d;
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 10px 50px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        margin-top: 30px;
+        
+        &:hover{
+            background-color: #ffffff;
+            color: #071c4d;
+        }
+    }
+
+    .btn-need-help{
+        background-color: #c4801b;
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 10px 50px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        margin-top: 30px;
+        
+        &:hover{
+            background-color: #ffffff;
+            color: #c4801b;
+        }
+    }
+}
+
+.section-footer{
+    a{
+        color: #071c4d;
+    }
+}
+
+.section-details-header{
+    min-height: 310px;
+    background: #764108;
+    margin-top: -70px;
+}
+
+.section-details-content{
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item{
+        a{
+            color: #ffffff;
+        }
+
+        &.active{
+            font-weight: bold;
+        }
+    }
+
+    .card-details{
+        padding: 30px;
+        border-radius: 11px;
+
+        h1{
+            font-size: 26px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+    }
+
+    .card-right{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+
+    .features{
+        margin-top: 20px;
+
+        h1{
+            font-size: 18px;
+            color: #071c4d;
+            margin-bottom: 0;
+        }
+
+        p{
+            margin-bottom: 0;
+        }
+
+        .description{
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .features-image{
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+
+    .gallery{
+        .center-cropped {
+            object-fit: scale-down;
+            object-position: center;
+            height: 400px;
+        }
+
+        .center-picture {
+            object-position: center;
+            height: 400px;
+        }
+    }
+
+    .members{
+        .member-image{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .join-container{
+        margin-top: -16px;
+    }
+
+    .btn-join-now{
+        background-color: #25D366;
+        color: #ffffff;
+        border-radius: 0;
+
+        &:hover{
+            background-color: #25D366;
+            color: #ffffff;
+        }
+
+        b{
+            margin-top: -50px;
+        }
+    }
+
+    .btn-tokopedia-now{
+        background-color: #25D366;
+        color: #ffffff;
+        border-radius: 0;
+
+        &:hover{
+            background-color: #25D366;
+            color: #ffffff;
+        }
+    }
+
+    .btn-shopee-now{
+        background-color: #fc5424;
+        color: #ffffff;
+        border-radius: 0;
+
+        &:hover{
+            background-color: #fc5424;
+            color: #ffffff;
+        }
+    }
+}
