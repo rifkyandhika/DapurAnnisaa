@@ -99,6 +99,7 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-food .card-food {
   min-height: 380px;
+  background-image: url("../images/Rendang.png");
   background-color: #bd9494;
   color: #ffffff;
   padding: 30px;
