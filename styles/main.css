@@ -4,6 +4,11 @@ body {
   color: #071c4d;
 }
 
+.navbar-light .icon-text {
+  color: #9c501a;
+  font-weight: bold;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #071c4d;
 }
