@@ -53,17 +53,17 @@ header .btn-get-started:hover {
 }
 
 .section-stats {
-  margin-top: -60px;
+  margin-top: -75px;
 }
 
 .section-stats .stats-detail {
-  padding-top: 10px;
+  padding-top: 15px;
   background-color: #ffffff;
   padding-left: 10px;
 }
 
 .section-stats h2 {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 0;
 }
 
@@ -244,7 +244,7 @@ header .btn-get-started:hover {
 }
 
 .section-details-content {
-  margin-top: -210px;
+  margin-top: -220px;
   min-height: 100vh;
 }
 
