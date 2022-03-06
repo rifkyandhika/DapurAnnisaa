@@ -160,6 +160,21 @@ header .btn-get-started:hover {
   font-size: 18px;
 }
 
+.modal-help .btn-join-now {
+  background-color: #25D366;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.modal-help .btn-join-now:hover {
+  background-color: #25D366;
+  color: #ffffff;
+}
+
+.modal-help .btn-join-now b {
+  margin-top: -50px;
+}
+
 .section-testimonial-content {
   margin-top: -300px;
   padding-bottom: 50px;

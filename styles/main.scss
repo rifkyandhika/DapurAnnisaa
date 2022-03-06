@@ -170,6 +170,23 @@ header{
     }
 }
 
+.modal-help{
+    .btn-join-now{
+        background-color: #25D366;
+        color: #ffffff;
+        border-radius: 0;
+
+        &:hover{
+            background-color: #25D366;
+            color: #ffffff;
+        }
+
+        b{
+            margin-top: -50px;
+        }
+    }
+}
+
 .section-testimonial-content{
     margin-top: -300px;
     padding-bottom: 50px;
