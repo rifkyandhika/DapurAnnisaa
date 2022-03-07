@@ -20,7 +20,7 @@ body {
 
 header {
   padding: 180px 0px 165px;
-  margin-top: -80px;
+  margin-top: -85px;
   background-image: url("../images/Spice2.jpg");
   background-size: cover;
 }
@@ -258,9 +258,9 @@ header .btn-get-started:hover {
 }
 
 .section-details-header {
-  min-height: 320px;
+  min-height: 330px;
   background: #764108;
-  margin-top: -80px;
+  margin-top: -85px;
 }
 
 .section-details-content {
