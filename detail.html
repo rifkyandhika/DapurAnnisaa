@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    
+
     <link rel="icon" href="images/Logo_Icon.png">
 
     <title>Rumah Makan Annisa - Detail</title>
@@ -117,9 +117,6 @@
                                 <p>
                                     Rendang adalah makanan khas dari Sumatera Utara. Makanan ini terbuat dari daging
                                     sapi yang dipotong-potong, tepung terigu, telur, dan bumbu-bumbu lainnya.
-                                    <a class="text-decoration-none" data-toggle="collapse" href="#collapseExample" role="button"
-                                        aria-expanded="false" aria-controls="collapseExample"> Learn More
-                                    </a>
                                     <div class="collapse" id="collapseExample">
                                         <p>
                                             Makanan
@@ -129,6 +126,9 @@
                                             bentuk roti.
                                         </p>
                                     </div>
+                                    <a class="text-decoration-none" data-toggle="collapse" href="#collapseExample" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample"> Read More
+                                    </a>
                                 </p>
                                 <div class="features row">
                                     <div class="col-md-4">
@@ -207,12 +207,74 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="container">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-1 col-sm-2 mt-lg-5 mt-sm-5 ml-sm-5">
+                            <img src="images/User2.png" alt="..." width="80">
+                        </div>
+                        <div class="col-lg-9 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sabrina Salsabila</h5>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i>
+                                <p class="card-text">"Makanan ini sangat enak dan murah. Rendangnya pun sangat empuk dan terasa bumbu
+                                    yang diracik. Terima kasih untuk Dapur Annisaaa"</p>
+                                <div class="row" id="gallery" data-toggle="modal" data-target="#myModalImage">
+                                    <div class="col-12 col-sm-6 mb-sm-3 col-lg-3">
+                                        <img src="images/testimoni.jpeg" class="rounded img-thumbnail" alt="..."
+                                            data-target="#carouselExampleFadeImage" data-slide-to="0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
+    <!-- Modal Image-->
+    <div class="modal fade" id="myModalImage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Gambar Foto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleFadeImage" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/testimoni.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFadeImage"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleFadeImage"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Modal Beta-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -269,9 +331,9 @@
                         <div class="col-12 col-lg-3">
                             <h5>GET CONNECTED</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#">Jakarta Selatan</a></li>
-                                <li><a href="#">Indonesia</a></li>
-                                <li><a href="#">0821-123-456</a></li>
+                                <li><a href="#">Ruko Zamrud Belakang KFC Blok B No.9</a></li>
+                                <li><a href="#">Kelurahan Padurenan Kec. Mustika Jaya</a></li>
+                                <li><a href="#">Kota Bekasi</a></li>
                                 <li><a href="#">
                             </ul>
                         </div>
@@ -296,7 +358,7 @@
     <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
 
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $("#myModal").modal('show');
         });
     </script>
