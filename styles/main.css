@@ -112,6 +112,76 @@ header .btn-get-started:hover {
   margin-bottom: 20px;
 }
 
+.section-popular-content .section-popular-food .card-food1 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food2 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food3 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food4 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food5 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food6 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-food .card-food7 {
+  min-height: 380px;
+  background-image: url("../images/Rendang.png");
+  background-color: #bd9494;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
 .section-popular-content .food-name {
   font-size: 26px;
   color: #ffffff;
