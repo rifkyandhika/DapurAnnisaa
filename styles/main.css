@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   color: #071c4d;
 }
 
@@ -25,12 +25,13 @@ header {
   background-size: cover;
 }
 
-header h1, header p {
+header h1,
+header p {
   color: #ffffff;
 }
 
 header h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 50px;
 }
@@ -88,12 +89,13 @@ header .btn-get-started:hover {
   margin-top: 150px;
 }
 
-.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
   color: #ffff;
 }
 
 .section-popular .section-popular-heading h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -193,7 +195,7 @@ header .btn-get-started:hover {
 }
 
 .section-popular-content .food-button .btn-food-details {
-  background-color: #FFAE6F;
+  background-color: #ffae6f;
   color: #ffffff;
 }
 
@@ -205,7 +207,7 @@ header .btn-get-started:hover {
 }
 
 .section-networks h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -226,7 +228,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -236,13 +238,13 @@ header .btn-get-started:hover {
 }
 
 .modal-help .btn-join-now {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
   border-radius: 0;
 }
 
 .modal-help .btn-join-now:hover {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
 }
 
@@ -321,10 +323,6 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-need-help:hover {
   background-color: #ffffff;
   color: #c4801b;
-}
-
-.section-footer a {
-  color: #071c4d;
 }
 
 .section-details-header {
@@ -426,13 +424,13 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .btn-join-now {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
   border-radius: 0;
 }
 
 .section-details-content .btn-join-now:hover {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
 }
 
@@ -441,13 +439,13 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .btn-tokopedia-now {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
   border-radius: 0;
 }
 
 .section-details-content .btn-tokopedia-now:hover {
-  background-color: #25D366;
+  background-color: #25d366;
   color: #ffffff;
 }
 
@@ -460,5 +458,67 @@ header .btn-get-started:hover {
 .section-details-content .btn-shopee-now:hover {
   background-color: #fc5424;
   color: #ffffff;
+}
+
+.footer {
+  background-color: #633607;
+  padding: 70px 0;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
