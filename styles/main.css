@@ -462,10 +462,28 @@ header .btn-get-started:hover {
 
 .footer {
   background-color: #633607;
-  padding: 70px 0;
+  padding: 70px 70px 10px 70px;
+}
+
+.footer .container-nama h3 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
 
 .footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h3 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
