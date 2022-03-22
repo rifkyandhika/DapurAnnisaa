@@ -460,6 +460,10 @@ header .btn-get-started:hover {
   color: #ffffff;
 }
 
+.section-details-content .container-testimoni .checked {
+  color: #ffe234;
+}
+
 .footer {
   background-color: #633607;
   padding: 70px 70px 10px 70px;

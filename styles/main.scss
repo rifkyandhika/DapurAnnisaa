@@ -232,14 +232,12 @@ header {
 }
 
 .section-testimonial-heading {
-  background-image: linear-gradient(
-    to bottom,
-    #764108,
-    #926438,
-    #ac8967,
-    #c6af99,
-    #ded6ce
-  );
+  background-image: linear-gradient(to bottom,
+      #764108,
+      #926438,
+      #ac8967,
+      #c6af99,
+      #ded6ce);
   padding-top: 50px;
   min-height: 506px;
 
@@ -476,6 +474,11 @@ header {
     &:hover {
       background-color: #fc5424;
       color: #ffffff;
+    }
+  }
+  .container-testimoni{
+    .checked{
+      color: #ffe234;
     }
   }
 }
