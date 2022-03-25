@@ -111,83 +111,13 @@ header {
 
 .section-popular-content {
   .section-popular-food {
-    .card-food {
+    .card-food{
       min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
+      background-image: url("../images/Rendang_1kg.jpg");
       background-color: rgb(189, 148, 148);
       color: #ffffff;
       padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food1 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food2 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food3 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food4 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food5 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food6 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
-      margin-bottom: 20px;
-    }
-
-    .card-food7 {
-      min-height: 380px;
-      background-image: url("../images/Rendang.jpg");
-      background-color: rgb(189, 148, 148);
-      color: #ffffff;
-      padding: 30px;
-      background-size: cover;
+      background-size: contain;
       margin-bottom: 20px;
     }
   }
@@ -232,12 +162,14 @@ header {
 }
 
 .section-testimonial-heading {
-  background-image: linear-gradient(to bottom,
-      #764108,
-      #926438,
-      #ac8967,
-      #c6af99,
-      #ded6ce);
+  background-image: linear-gradient(
+    to bottom,
+    #764108,
+    #926438,
+    #ac8967,
+    #c6af99,
+    #ded6ce
+  );
   padding-top: 50px;
   min-height: 506px;
 
@@ -421,6 +353,7 @@ header {
       object-fit: scale-down;
       object-position: center;
       height: 400px;
+      background-color: #dddddd;
     }
 
     .center-picture {
@@ -476,8 +409,9 @@ header {
       color: #ffffff;
     }
   }
-  .container-testimoni{
-    .checked{
+
+  .container-testimoni {
+    .checked {
       color: #ffe234;
     }
   }

@@ -106,81 +106,11 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-food .card-food {
   min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
+  background-image: url("../images/Rendang_1kg.jpg");
   background-color: #bd9494;
   color: #ffffff;
   padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food1 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food2 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food3 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food4 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food5 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food6 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-.section-popular-content .section-popular-food .card-food7 {
-  min-height: 380px;
-  background-image: url("../images/Rendang.jpg");
-  background-color: #bd9494;
-  color: #ffffff;
-  padding: 30px;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 20px;
 }
 
@@ -406,6 +336,7 @@ header .btn-get-started:hover {
   -o-object-position: center;
      object-position: center;
   height: 400px;
+  background-color: #dddddd;
 }
 
 .section-details-content .gallery .center-picture {
