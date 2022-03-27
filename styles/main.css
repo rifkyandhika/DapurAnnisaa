@@ -119,6 +119,12 @@ header .btn-get-started:hover {
   color: #ffffff;
 }
 
+.section-popular-content .food-price {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: -5px;
+}
+
 .section-popular-content .food-country {
   font-size: 18px;
   color: #ffffff;
@@ -131,9 +137,9 @@ header .btn-get-started:hover {
 
 .section-networks {
   background-color: #ffffff;
-  margin-top: -170px;
+  margin-top: -120px;
   padding-top: 240px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 .section-networks h2 {
@@ -179,6 +185,21 @@ header .btn-get-started:hover {
 }
 
 .modal-help .btn-join-now b {
+  margin-top: -50px;
+}
+
+.modal-whatsapp .btn-join-now {
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.modal-whatsapp .btn-join-now:hover {
+  background-color: #25d366;
+  color: #ffffff;
+}
+
+.modal-whatsapp .btn-join-now b {
   margin-top: -50px;
 }
 

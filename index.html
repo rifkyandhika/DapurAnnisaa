@@ -86,10 +86,6 @@
                     <h2>4.5/5</h2>
                     <p>Rating</p>
                 </div>
-                <!-- <div class="col-3 col-md-2 stats-detail text-center">
-                    <h2>20k</h2>
-                    <p>Member</p>
-                </div> -->
             </section>
         </div>
 
@@ -100,7 +96,7 @@
                     <div class="col text-center section-popular-heading">
                         <h2>Makanan Popular</h2>
                         <p>
-                            Makanan sangat enak
+                            Rekomendasi Makanan yang sudah dibeli oleh pembeli dan yang paling banyak diorder
                         </p>
                     </div>
                 </div>
@@ -110,12 +106,44 @@
         <!-- Content Produk Makanan -->
         <section class="section-popular-content" id="popularcontent">
             <div class="container">
-                <div class="section-popular-food row justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="card-food text-center d-flex flex-column">
-                            <div class="food-name">RENDANG 1KG</div>
-                            <div class="food-button mt-auto">
-                                <a href="detail_rendang_1kg.html" class="btn btn-food-details px-4">
+                <div class="section-popular-food row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                    <div class="col mb-4">
+                        <div class="card border-0 d-flex flex-column">
+                            <img src="images/Rendang_50gr.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <h5 class="card-title text-center food-name">Rendang 50g</h5>
+                                <h6 class="text-center food-price"><b>Rp 20.000</b></h6>
+                            </div>
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center food-button">
+                                <a href="detail_rendang_50g.html" class="btn btn-food-details px-4">
+                                    Lihat Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card border-0 d-flex flex-column">
+                            <img src="images/Rendang_100gr.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <h5 class="card-title text-center food-name">Rendang 100g</h5>
+                                <h6 class="text-center food-price"><b>Rp 40.000</b></h6>
+                            </div>
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center food-button">
+                                <a href="detail_rendang_100g.html" class="btn btn-food-details px-4">
+                                    Lihat Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card border-0 d-flex flex-column">
+                            <img src="images/Rendang_250gr.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <h5 class="card-title text-center food-name">Rendang 250g</h5>
+                                <h6 class="text-center food-price"><b>Rp 90.000</b></h6>
+                            </div>
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center food-button">
+                                <a href="detail_rendang_250g.html" class="btn btn-food-details px-4">
                                     Lihat Details
                                 </a>
                             </div>
@@ -128,32 +156,30 @@
         <!-- Content Networks -->
         <section class="section-networks">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
+                    <div class="text-center">
                         <h2>Bekerja Sama Dengan</h2>
                         <p>
                             Perusahaan Jasa Yang Sudah
-                            <br>
                             Bekerja Sama Dengan Kami
                         </p>
                     </div>
-                    <div class="col-md-2 text-center">
-                        <img src="images/JNE.png" alt="Logo Partner" class="img-partner">
-                        <br>
-                        <br>
-                        <img src="images/Tokopedia.png" alt="Logo Partner" class="img-partner">
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="images/Sicepat.png" alt="Logo Partner" class="img-partner">
-                        <br>
-                        <br>
-                        <img src="images/Go_Food.png" alt="Logo Partner" class="img-partner">
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <img src="images/TIKI.png" alt="Logo Partner" class="img-partner">
-                        <br>
-                        <br>
-                        <img src="images/Shopee.png" alt="Logo Partner" class="img-partner">
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th class="text-center align-middle"><img src="images/JNE.png" alt="Logo Partner" class="img-partner"></th>
+                                    <th class="text-center align-middle"><img src="images/Sicepat.png" alt="Logo Partner" class="img-partner"></th>
+                                    <th class="text-center align-middle"><img src="images/TIKI.png" alt="Logo Partner" class="img-partner"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="text-center align-middle"><img src="images/Tokopedia.png" alt="Logo Partner" class="img-partner"></th>
+                                    <td class="text-center align-middle"><img src="images/Go_Food.png" alt="Logo Partner" class="img-partner"></td>
+                                    <td class="text-center align-middle"><img src="images/Shopee.png" alt="Logo Partner" class="img-partner"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -269,31 +295,6 @@
         </div>
     </div>
 
-    <!-- Modal Beta-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5>Beta Test</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="alert alert-danger" role="alert">
-                        Warning!!!
-                        <br>
-                        Transaksi Ini Belum Bisa Digunakan Karena Masih Fitur Beta
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -349,12 +350,6 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
-
-    <script>
-        $(document).ready(function () {
-            $("#myModal").modal('show');
-        });
-    </script>
 
 </body>
 

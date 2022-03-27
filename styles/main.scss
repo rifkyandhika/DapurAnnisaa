@@ -127,6 +127,12 @@ header {
     color: #ffffff;
   }
 
+  .food-price {
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: -5px;
+  }
+
   .food-country {
     font-size: 18px;
     color: #ffffff;
@@ -142,9 +148,9 @@ header {
 
 .section-networks {
   background-color: #ffffff;
-  margin-top: -170px;
+  margin-top: -120px;
   padding-top: 240px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 
   h2 {
     font-family: "Playfair Display", serif;
@@ -185,6 +191,23 @@ header {
 }
 
 .modal-help {
+  .btn-join-now {
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #25d366;
+      color: #ffffff;
+    }
+
+    b {
+      margin-top: -50px;
+    }
+  }
+}
+
+.modal-whatsapp{
   .btn-join-now {
     background-color: #25d366;
     color: #ffffff;
