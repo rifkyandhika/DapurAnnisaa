@@ -430,6 +430,24 @@ header .btn-get-started:hover {
   position: relative;
 }
 
+.modal-testimoni .center-cropped {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  -o-object-position: center;
+     object-position: center;
+  height: 400px;
+  background-color: #dddddd;
+}
+
+.modal-testimoni-1 .center-cropped {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  -o-object-position: center;
+     object-position: center;
+  height: 400px;
+  background-color: #dddddd;
+}
+
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;

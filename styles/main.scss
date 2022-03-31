@@ -456,6 +456,24 @@ header {
   }
 }
 
+.modal-testimoni{
+  .center-cropped {
+    object-fit: scale-down;
+    object-position: center;
+    height: 400px;
+    background-color: #dddddd;
+  }
+}
+
+.modal-testimoni-1{
+  .center-cropped {
+    object-fit: scale-down;
+    object-position: center;
+    height: 400px;
+    background-color: #dddddd;
+  }
+}
+
 .footer-col {
   h4 {
     font-size: 18px;
