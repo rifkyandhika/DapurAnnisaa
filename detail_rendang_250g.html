@@ -81,7 +81,7 @@
                             <div class="gallery">
                                 <div id="carouselExampleFade" class="carousel slide carousel-fade mb-4"
                                     data-ride="carousel">
-                                    <ol class="carousel-indicators">
+                                    <!-- <ol class="carousel-indicators">
                                         <li data-target="#carouselExampleFade" data-slide-to="0" class="active">
                                         </li>
                                         <li data-target="#carouselExampleFade" data-slide-to="1"></li>
@@ -89,7 +89,7 @@
                                         <li data-target="#carouselExampleFade" data-slide-to="3"></li>
                                         <li data-target="#carouselExampleFade" data-slide-to="4"></li>
                                         <li data-target="#carouselExampleFade" data-slide-to="5"></li>
-                                    </ol>
+                                    </ol> -->
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="images/Rendang_250gr.jpg" class="d-block w-100 center-cropped"
@@ -114,6 +114,16 @@
                                         <div class="carousel-item">
                                             <img src="images/Rendang_All_3.jpg" class="d-block w-100 center-cropped"
                                                 alt="Rendang_All_3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <video controls class="d-block w-100 center-cropped" id="player">
+                                                <source src="videos/video_rendang.mp4" type="video/webm" />
+                                            </video>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <video controls class="d-block w-100 center-cropped" id="player">
+                                                <source src="videos/video_rendang1.mp4" type="video/webm" />
+                                            </video>
                                         </div>
                                         <!-- <div class="carousel-item">
                                             <img src="images/Rendang_All_2.jpg" class="d-block w-100 center-picture"
@@ -512,6 +522,15 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
+
+    <script>
+        // invoke the carousel
+        $('#carouselExampleFade').carousel({
+            interval: 17000
+        }).on('slide.bs.carousel', function () {
+            document.getElementById('player').pause();
+        });
+    </script>
 
 </body>
 
