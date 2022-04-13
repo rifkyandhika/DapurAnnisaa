@@ -437,6 +437,13 @@ header {
     .checked {
       color: #ffe234;
     }
+
+    .center-cropped {
+      object-fit: scale-down;
+      object-position: center;
+      height: 400px;
+      background-color: #dddddd;
+    }
   }
 }
 

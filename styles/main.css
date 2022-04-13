@@ -416,6 +416,15 @@ header .btn-get-started:hover {
   color: #ffe234;
 }
 
+.section-details-content .container-testimoni .center-cropped {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  -o-object-position: center;
+     object-position: center;
+  height: 400px;
+  background-color: #dddddd;
+}
+
 .footer {
   background-color: #633607;
   padding: 70px 70px 10px 70px;

@@ -117,12 +117,17 @@
                                         </div>
                                         <div class="carousel-item">
                                             <video controls class="d-block w-100 center-cropped" id="player">
-                                                <source src="videos/video_rendang.mp4" type="video/webm" />
+                                                <source src="videos/video_rendang3.mp4" type="video/webm" />
                                             </video>
                                         </div>
                                         <div class="carousel-item">
                                             <video controls class="d-block w-100 center-cropped" id="player">
-                                                <source src="videos/video_rendang1.mp4" type="video/webm" />
+                                                <source src="videos/video_rendang4.mp4" type="video/webm" />
+                                            </video>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <video controls class="d-block w-100 center-cropped" id="player">
+                                                <source src="videos/video_rendang5.mp4" type="video/webm" />
                                             </video>
                                         </div>
                                         <!-- <div class="carousel-item">
@@ -254,15 +259,15 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-4 mt-sm-4 mt-md-4 mt-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-4">
+            <div class="container container-testimoni mt-4 mt-sm-4 mt-md-4 mt-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-4">
                 <h4>Review & Ulasan Produk</h4>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="row">
                         <div class="col">
                             <div class="card-body">
                                 <h5 class="text-center">Belum Ada Review & Ulasan</h5>
                             </div>
-                        </div>
+                        </div> -->
                         
                         <!-- <div class="col-lg-1 col-sm-2 col-md-3 mt-xs-5 mt-lg-5 mt-sm-5 ml-sm-5 mt-3 ml-5">
                             <img src="images/User2.png" alt="..." width="80">
@@ -283,6 +288,31 @@
                                 </div>
                             </div>
                         </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-1 col-sm-2 col-md-3 mt-xs-5 mt-lg-5 mt-sm-5 ml-sm-5 mt-3 ml-5">
+                            <img src="images/User1.png" alt="..." width="80">
+                        </div>
+                        <div class="col-lg-9 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Budi Adama</h5>
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i
+                                    class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i
+                                    class="fa fa-star checked"></i>
+                                <div class="row mt-3" id="gallery" data-toggle="modal" data-target="#myModalImage2">
+                                    <div class="col-6 col-sm-6 mb-sm-3 col-lg-3">
+                                        <img src="images/testimoni/testimoni_6.jpg" class="rounded img-thumbnail"
+                                            alt="..." data-target="#carouselExampleFadeImage2" data-slide-to="0">
+                                    </div>
+                                    <div class="col-6 col-sm-6 mb-sm-3 col-lg-3">
+                                        <img src="images/testimoni/testimoni_8.jpg" class="rounded img-thumbnail"
+                                            alt="..." data-target="#carouselExampleFadeImage2" data-slide-to="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -295,7 +325,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5>Gambar Foto</h5>
+                    <h5>Review & Ulasan</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -313,6 +343,50 @@
                             <span class="sr-only">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-target="#carouselExampleFadeImage"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Image2-->
+    <div class="modal fade modal-testimoni-1" id="myModalImage2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Review & Ulasan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleFadeImage2" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <video controls class="w-100 center-cropped" id="player2">
+                                    <source src="videos/video_rendang.mp4" type="video/webm">
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video controls class="w-100 center-cropped" id="player2">
+                                    <source src="videos/video_rendang1.mp4" type="video/webm">
+                                </video>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFadeImage2"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleFadeImage2"
                             data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
@@ -467,6 +541,13 @@
         }).on('slide.bs.carousel', function () {
             document.getElementById('player').pause();
         });
+
+        // invoke the carousel
+        $('#carouselExampleFadeImage2').carousel({
+            interval: false
+        }).on('slide.bs.carousel', function () {
+            document.getElementById('player2').pause();
+        });;
     </script>
 
 </body>
